@@ -5,6 +5,8 @@ use App\http\Livewire\Admin\AdminDashboardComponent;
 use App\http\livewire\Sprovider\SproviderDashboardComponent;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Middleware\AuthAdmin;
+use App\Http\Middleware\AuthSprovider;
 
 /*
 |--------------------------------------------------------------------------
